@@ -1,0 +1,149 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>TASK 1 : Landing Page</title> 
+</head> 
+
+<body> 
+    <nav> 
+        <div class="heading">Landing Page</div> 
+        <span class="sideMenuButton" onclick="openNavbar()"> ☰ </span> 
+        <div class="navbar"> 
+            <ul> 
+                <li><a href="#Home">Home</a></li> 
+                <li><a href="#about">About Us</a></li> 
+                <li><a href="#contact">Sign Up</a></li> 
+                
+                <!-- Social Media Links in Navigation Bar -->
+                <li class="social-icon">
+                    <a href="https://www.instagram.com/jerry._18_?igshid=MTNiYzNiMzkwZA==" target="_blank">
+                        <img src="instagram.png" alt="Instagram" width="20">
+                    </a>
+                </li>
+                <li class="social-icon">
+                    <a href="https://www.linkedin.com/in/subhadeep-biswas-305a7a256/" target="_blank">
+                        <img src="linkedin.png" alt="LinkedIn" width="20">
+                    </a>
+                </li>
+                <li class="social-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100023912054968&mibextid=ZbWKwL" target="_blank">
+                        <img src="facebook.png" alt="Facebook" width="19">
+                    </a>
+                </li>                
+            </ul> 
+        </div> 
+    </nav> 
+
+    <!-- Side navigation bar for responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar"> 
+        <a href="#" class="closeButton" onclick="closeNavbar()"> </a> 
+        <a href="#">Home</a> 
+        <a href="#">About Us</a> 
+        <a href="#">Sign Up</a> 
+    </div> 
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Landing Page</h1>
+            <button>
+                <a href="#"> Explore More </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src="conversation_business_16.jpg"
+                alt="About Us Image" width="500">
+        </div>
+    </div>
+    
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title">
+                <span>About Us</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <h2>About Me</h2>
+                    <p>
+                        Hello! I'm a passionate computer science student on an exciting journey through the world of technology. 
+                        My journey is marked by a strong proficiency in programming, particularly in C++, and a flair for crafting 
+                        engaging web experiences using HTML and CSS.
+                    </p>
+                </div>
+                <div class="box">
+                    <h2>HTML & CSS</h2>
+                    <p>
+                        This landing page is built using HTML and CSS to create a simple and responsive web layout. The structure 
+                        consists of two main sections: "Home" and "About Us." The page features a navigation bar, a side menu for 
+                        responsiveness, and a content area with an image and text.                        
+                    </p>                    
+                </div>
+                <div class="box image-box">
+                    <img src="DJV MAR 1034-03.jpg" alt="About Us Image" width="200">
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact"> 
+        <div class="content"> 
+            <div class="title"><span>Sign Up</span></div> 
+            <div class="contactMenu"> 
+                <div class="input1"> 
+                    <div class="label1">Your Name</div> 
+                    <div class="input2"> 
+                        <input type="text" placeholder="Enter your Name here"> 
+                    </div> 
+                    <div class="label1"> 
+                        <label>Your Email</label> 
+                    </div> 
+                    <div class="input2"> 
+                        <input type="text" placeholder="Enter your Email here"> 
+                    </div> 
+                    <div class="label1"> 
+                        <label>Your Password</label> 
+                    </div> 
+                    <div class="input2"> 
+                        <input type="text" placeholder="Enter your Password here"> 
+                    </div> 
+                    <div class="button"> 
+                        <button>Sign Up</button> 
+                    </div> 
+                </div> 
+                <div class="input3"> 
+                    <div class="rightside1"> 
+                        <div class="title1"> 
+                            <span>Contact Us</span> 
+                        </div> 
+                        <div class="content1"> 
+                            Subhash Pally, Kansha Dak Bunglow, P.O Panagarh Bazar, Dist : Paschim Burdwan - 713148
+                        </div> 
+                        <div class="title1"> 
+                            <span>More Information</span> 
+                        </div> 
+                        <div class="content1"> 
+                            Greetings to all the visitors! Thank you for choosing and supporting us.
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+
+    <!-- Footer section -->
+    <footer> 
+        <div class="footer"> 
+            <span> 
+                Created By 
+                <a href="#" target="_blank"> Subhadeep Biswas </a> 
+            </span> 
+        </div> 
+    </footer> 
+</body> 
+
+</html>
